@@ -1,0 +1,117 @@
+#buttons {
+    position: relative;
+    text-align: center;
+}
+#questionsDiv {
+    text-align: center;
+}
+
+
+#wrapper {
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5%;
+} 
+h1, h2 {
+    text-shadow: 2px 2px 1px rgba(100, 100, 100, 0.65);
+    text-align: center;
+}
+#highscore-div {
+    position: absolute;
+    top: 35vh;
+    left: 10vw;
+    width: 25vw;
+    height: 25vh;
+    border: 1px solid black;
+    border-radius: 10%;
+    background: white;
+}
+p, #highScore {
+    margin: 10px;
+    text-align: center;
+}
+
+#startTime {
+    left: 100px;
+}
+
+
+button {
+    color: rgb(255, 255, 255); 
+    font-size: 10px; 
+    line-height: 15px; 
+    padding: 5px; 
+    border-radius: 19px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(85, 85, 85) 61%, rgb(171, 171, 171) 100%); 
+    box-shadow: rgb(0, 0, 0) 1px 1px 15px 1px; border: 2px solid rgb(0, 0, 0); 
+    display: inline-block;}
+
+    button:hover {
+    background: #353535; }
+    button:active {
+    background: #5d5d5d; }
+
+body {
+    background: #8F44A4;
+    background: -moz-linear-gradient(-45deg, #8F44A4 0%, #404C75 100%);
+    background: -webkit-linear-gradient(-45deg, #8F44A4 0%, #404C75 100%);
+    background: linear-gradient(135deg, #8F44A4 0%, #404C75 100%);
+}
+
+li{
+list-style: none;
+position: relative;
+    margin-right: 50px;
+    margin-top: 5%;
+    border: 1px solid black;
+    /* border-radius: 0%; */
+    color: rgb(255, 255, 255); 
+    font-size: 15px; 
+    line-height: 15px; 
+    padding: 5px; 
+    /* border-radius: 19px;  */
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(85, 85, 85) 61%, rgb(171, 171, 171) 100%); 
+    box-shadow: rgb(0, 0, 0) 1px 1px 15px 1px; border: 2px solid rgb(0, 0, 0); 
+    /* display: inline-block; */
+}
+
+#currentTime {
+    color: rgb(255, 255, 255); 
+    font-size: 10px; 
+    line-height: 15px; 
+    padding: 5px; 
+    border-radius: 19px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(85, 85, 85) 61%, rgb(171, 171, 171) 100%); 
+    box-shadow: rgb(0, 0, 0) 1px 1px 15px 1px; border: 2px solid rgb(0, 0, 0); 
+    display: inline-block;
+}
+
+#clear {
+    position: absolute;
+    top: 86vh;
+}
+
+/* Sorry kinda game up on the css for not having time this week do to work
+will come back to tidy up when i can */
